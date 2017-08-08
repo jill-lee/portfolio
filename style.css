@@ -11,21 +11,23 @@ body, html {
   font: 400 15px/1.8 "Dosis", sans-serif;
   color: #000;
   background-attachment: fixed;
+
 }
 
 
 
 .opaque-navbar {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 60px;
+  height: 55px;
   transition: background-color .5s ease 0s;
   font-family: 'Oswald', sans-serif;
   font-size: 120%;
+  padding-top: 2px;
 }
 
 .opaque-navbar.opaque {
   background-color: #fff;
-  height: 60px;
+  height: 58px;
   transition: background-color .5s ease 0s;
  
 }
@@ -127,6 +129,7 @@ button.navbar-toggle {
   background-size: cover;
   background-position: left center;
   overflow-x: hidden;
+  width: 100;
 }
 
 
