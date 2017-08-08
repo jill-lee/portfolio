@@ -14,23 +14,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <script src="jquery.fixedbg.min.js"></script>
+<script src="jquery.fixedbg.min.js"></script>
   
   <script>
-	  
-$(window).scroll(function() {
+  $(window).scroll(function() {
   if ($(this).scrollTop() > 50) {
     $(".opaque-navbar").addClass("opaque");
   } else {
     $(".opaque-navbar").removeClass("opaque");
   }
-});
-
-// active nav // 
-var selector = ".nav li";
-$(selector).on("click", function() {
-  $(selector).removeClass("active");
-  $(this).addClass("active");
 });
 
 function Parallax() {
@@ -72,8 +64,7 @@ $(window).scroll(function() {
     );
   }
 });
-	  
-	
+
   </script>
 
 </head>
