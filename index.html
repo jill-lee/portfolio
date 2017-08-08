@@ -26,6 +26,13 @@ $(window).scroll(function() {
   }
 });
 
+// active nav // 
+var selector = ".nav li";
+$(selector).on("click", function() {
+  $(selector).removeClass("active");
+  $(this).addClass("active");
+});
+
 function Parallax() {
   scrollPos = $(this).scrollTop();
   $(".intro, .header, .bgimg-1").css({
@@ -65,6 +72,7 @@ $(window).scroll(function() {
     );
   }
 });
+
 
 
 
