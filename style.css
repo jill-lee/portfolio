@@ -128,7 +128,7 @@ button.navbar-toggle {
 
 
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 700px) {
   .bgimg-1 {
    background-image: url('http://i64.tinypic.com/6yjvk7.jpg');
    margin: 0;
