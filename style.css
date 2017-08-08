@@ -66,8 +66,11 @@ button.navbar-toggle {
 .intro2 {
   font: 100% 'Dosis', sans-serif;
   color: #808080;
+  position: relative;
+  top: 3px;
 
 }
+
 
 .wrapper {
   display: flex;
@@ -120,6 +123,7 @@ button.navbar-toggle {
   background-image: url('https://image.ibb.co/bxtMma/port.png');
   background-size:cover;
   background-position: left center;
+  overflow-x: hidden;
 }
 
 
@@ -131,6 +135,8 @@ button.navbar-toggle {
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size:cover;
+   
+
   }
 }
 
@@ -151,7 +157,7 @@ button.navbar-toggle {
 
 .quote {
   font: 195% 'Dosis', sans-serif;
-  color: #606060;
+  color: #404040;
   letter-spacing: 1px;
   padding-top: 20px;
   padding-bottom: 20%;
@@ -162,7 +168,7 @@ button.navbar-toggle {
 
 .columns {
   font: 85% 'Montserrat', sans-serif;
-  color: #606060;
+  color: #404040;
   letter-spacing: 1.5px;
   line-height: 19px;
   padding-top: 20px;
@@ -330,7 +336,7 @@ button a:active {
 
 .social-feature {
   font: 12px 'Montserrat', sans-serif;
-  color: #606060;
+  color: #404040;
   letter-spacing: 1.5px;
   line-height: 19px;
   text-align: left;
@@ -374,7 +380,7 @@ button a:active {
 
 .news-feature {
   font: 12px 'Montserrat', sans-serif;
-  color: #606060;
+  color: #404040;
   letter-spacing: 1.5px;
   line-height: 19px;
   text-align: left;
@@ -482,7 +488,7 @@ button a:active {
 
 .contact-feature {
   font: 12px 'Montserrat', sans-serif;
-  color: #606060;
+  color: #404040;
   letter-spacing: 1.5px;
   line-height: 19px;
   text-align: center;
