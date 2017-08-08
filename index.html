@@ -14,10 +14,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<script src="jquery.fixedbg.min.js"></script>
+  <script src="jquery.fixedbg.min.js"></script>
   
   <script>
-
+	  
 $(window).scroll(function() {
   if ($(this).scrollTop() > 50) {
     $(".opaque-navbar").addClass("opaque");
@@ -72,12 +72,13 @@ $(window).scroll(function() {
     );
   }
 });
-
+	  
+	
   </script>
 
 </head>
 
-<body>
+<body data-spy="spyscroll" data-target=".navbar-default">
 
 
   <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
@@ -143,14 +144,9 @@ $(window).scroll(function() {
 
 
   <!---PORTFOLIO--->
-
-
   <div class="bgimg-2"></div>
-
   <div id="my-portfolio">
     <h3 id="portfolio" class="portfolio">PORTFOLIO</h3></div>
-
-
   <div class="row">
     <div class="col-sm-4">
       <div class="hover-img">
@@ -162,9 +158,6 @@ $(window).scroll(function() {
       </div>
     </div>
     
-
-
-
     <div class="col-sm-4">
       <div class="hover-img">
        
@@ -174,9 +167,7 @@ $(window).scroll(function() {
         </div>
       </div>
     </div>
-
     
-
     <div class="col-sm-4">
       <div class="hover-img">
        
@@ -186,16 +177,11 @@ $(window).scroll(function() {
         </div>
       </div>
     </div>  
-
-
   
   </div>
 </div>
-
    
-
  
-
   <div class="row">
     <div class="col-sm-4">
       <div class="hover-img">
@@ -206,9 +192,6 @@ $(window).scroll(function() {
         </div>
       </div>
     </div>
-
-
-
     <div class="col-sm-4">
       <div class="hover-img">
        
@@ -218,10 +201,7 @@ $(window).scroll(function() {
         </div>
       </div>
     </div>
-
     
-
-
     <div class="col-sm-4">
       <div class="hover-img">
        
@@ -231,53 +211,36 @@ $(window).scroll(function() {
         </div>
       </div>
     </div>
-
  <div class="banner">
    <div class="banner-background"> 
     <p>LIKE MY CREATIVE WORKS?</p> 
     <button class="button banner-button"><a href="#contact">START PROJECT</a></button>
      
-
  </div>
  </div>
   
   </div>
 </div>
-
-
-
-
    <div class="container">
     <div id="why-choose">
       <h3 id="choose" class="choose">WHY CHOOSE ME?</h3></div>
-
   </div>
 </div>
-
-
-
-
     
  <!--social icons --->
-
-
-
   <div class="container">
        <div class="row">
          <div class="social">
            <div class="col-sm-4">
-
 <i class="fa fa-heart-o" aria-hidden="true"></i>
   </i><p class="social-header">MINIMALIST</p>
 <p class="social-feature">I love minimalism for the freedom it has given me. Freedom — freedom from debt, from clutter, and from the rat race — be it an unused item, unnecessary purchase, or unfulfilling task — we feel an incredible sense of liberation.</p>    
            
     </div>
   </div>
-
            
 <div class="social">
    <div class="col-sm-4">
-
 <i class="fa fa-cogs" aria-hidden="true"></i>
 <p class="social-header">RESPONSIBLE</p>
 <p class="social-feature">Hardwork spotlights the character of people. Being responsible makes life better.</p>    
@@ -285,10 +248,8 @@ $(window).scroll(function() {
     </div>
   </div>
         
-
  <div class="social">
    <div class="col-sm-4">
-
 <i class="fa fa-star-o" aria-hidden="true"></i><p class="social-header">CREATIVE</p>
 <p class="social-feature">I like to have fun and genuinely give a sh*t about my clients. I get up in the morning because I love what we do, making beautiful designs come to life.</p>    
            
@@ -296,46 +257,33 @@ $(window).scroll(function() {
    </div>
   </div>
 </div>    
-
 <div class="container">
   <div class="row">
     <div class="social">
        <div class="col-sm-4">
-
 <i class="fa fa-comments-o" aria-hidden="true"></i><p class="social-header">FRIENDLY</p>
 <p class="social-feature">Laughter, it makes work more fun and transforms projects into a passion. I’ll treat you fairly, share some laughs and work with you to achieve your goals and exceed expectations. </p>    
            
     </div>
   </div>
-
-
  <div class="social">
    <div class="col-sm-4">
-
 <i class="fa fa-clock-o" aria-hidden="true"></i><p class="social-header">PUNCTUAL</p>
 <p class="social-feature">Consistently being on time is the product of proper planning, personal discipline, and a respect for other people's time.</p>    
            
     </div>
   </div>
-
-
-
  <div class="social">
    <div class="col-sm-4">
-
 <i class="fa fa-diamond" aria-hidden="true"></i><p class="social-header">MAGIC</p>
 <p class="social-feature">People love what other people are passionate about. We believe that we can do magic through small things that we care about. "When magic through nerves and reason passes, Imagination, force, and passion will thunder. The portrait of the world is changed." ~ Dejan Stojanovic</p>    
       
            
     </div>
   </div>
-
  </div>
 </div>
-
   <div class="bgimg-3"></div>
-
-
 <!---news section -->
 
 <div class="container">
@@ -419,14 +367,14 @@ In fact, it’s frequently considered a style of the upper-class. The attitude i
     <div class="row">
      <div class="col-sm-12">
 	     <div class="single">
-		     <p>STAY INFORMED WITH MY NEWSLETTER</p>
+		     <p>STAY INFORMED WITH THE LATEST NEWS</p>
 	<div class="input-group">
          <input type="email" class="form-control" placeholder="Enter your email">
          <span class="input-group-btn">
          <button class="btn btn-theme" type="submit">Subscribe</button>
          </span>
           </div>
-         <div class="no-spam">I won't send you spam</div>    
+           <div class="no-spam">won't send you spam</div>    
       	</div>
        </div>
      </div>
@@ -480,6 +428,7 @@ In fact, it’s frequently considered a style of the upper-class. The attitude i
   </div>
 
 
+<!-- contact form section -->
 
 
   <div class="bgimg-4"></div> 
