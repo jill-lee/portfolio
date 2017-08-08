@@ -124,6 +124,9 @@ button.navbar-toggle {
   background-repeat: no-repeat;
   background-color: #000;
   background-image: 
+  background-size: cover;
+  background-position: left center;
+  overflow-x: hidden;
 }
 
 
@@ -135,8 +138,7 @@ button.navbar-toggle {
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size:cover;
-   overflow-x: hidden;
-
+   
 
   }
 }
