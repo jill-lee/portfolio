@@ -55,37 +55,30 @@ button.navbar-toggle {
 }
 
 
-.intro {
-  position: fixed;
-  font: 250% 'Dosis', sans-serif;
-  font-weight: bold;
-  color: #fff;
-  top: 20%;
-  letter-spacing: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
+/*mobile*/
+
+
+.bgimg-1 {
+  background-image: url('https://preview.ibb.co/gLo51k/Original_8192x4518.jpg');
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 
-.intro2 {
-  font: 170% 'Dosis', sans-serif;
-  color: #fff;
-  position: fixed;
-  text-align: left;
-  top: 24%;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+ @media only screen and (max-device-width: 480px) { 
+  .bgimg-1 {
+  background-image: url('https://preview.ibb.co/dMzvHQ/GB2.jpg');
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+   }    
+ }   
 
-
-.wrapper {
-  display: flex;
-  justify-content: center;
-
-}
-
-@media screen and (min-width: 450px) {
-  .intro  {
+  
+.intro  {
   position: fixed;
   font: 290%  'Dosis', sans-serif;
   font-weight: bold;
@@ -96,7 +89,6 @@ button.navbar-toggle {
   margin-left:auto;
   margin-right:auto;
   top: 48%;
-
 }
 
 
@@ -107,40 +99,48 @@ button.navbar-toggle {
   position: fixed;
   text-align: justify;
   top: 63%;
-
 }
+
 
  .wrapper {
   display: flex;
   justify-content: center;
-
-
-  }
 }
 
 
-
-.bgimg-1 {
-  min-height: 100%;
-  margin-top: 0;
-  margin-right: -10px;
-  background-repeat: no-repeat;
-  background-color: #000;
-}
-
-
-
-@media screen and (min-width: 900px) {
-  .bgimg-1 {
-   background-image: url('https://image.ibb.co/cDmKnQ/Original_640x353.jpg');
-   margin: 0;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size:cover;
+ @media only screen and (max-device-width: 480px) { 
+  
+  .intro  {
+  position: fixed;
+  font: 290%  'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 290%;
+  letter-spacing: 45px;
+  text-align: center;
+  color: #fff;
+  margin-left:auto;
+  margin-right:auto;
+  top: 43%;
+ }
+  
    
+  .intro2 {
+  font: 250% 'Dosis', sans-serif;
+  color: #BFBFBF;
+  position: fixed;
+  text-align: justify;
+  top: 50%;
+ }
 
-  }
-}
+ .wrapper {
+  display: flex;
+  justify-content: center;
+ }  
+}   
+
+
+
+
 
 
 
@@ -184,6 +184,7 @@ button.navbar-toggle {
   background-attachment: fixed;
   opacity: 0.5;
 }
+
 
 /* portfolio */
 
