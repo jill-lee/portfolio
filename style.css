@@ -67,19 +67,8 @@ button.navbar-toggle {
   
 }
 
- @media only screen and (max-device-width: 480px) { 
-  .bgimg-1 {
-  background-image: url('https://preview.ibb.co/dMzvHQ/GB2.jpg');
-  min-height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-   }    
- }   
-
-  
 .intro  {
-  position: fixed;
+  position: relative;
   font: 290%  'Dosis', sans-serif;
   font-weight: bold;
   font-size: 290%;
@@ -91,6 +80,31 @@ button.navbar-toggle {
   top: 48%;
 }
 
+
+
+ @media only screen and (max-device-width: 480px) { 
+  .bgimg-1 {
+  background-image: url('https://preview.ibb.co/dMzvHQ/GB2.jpg');
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+   }    
+ }   
+
+
+.intro  {
+  position: absolute;
+  font: 290%  'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 290%;
+  letter-spacing: 45px;
+  text-align: center;
+  color: #fff;
+  margin-left:auto;
+  margin-right:auto;
+  top: 48%;
+}
 
   .intro2 {
   font: 170% 'Dosis', sans-serif;
@@ -112,7 +126,7 @@ button.navbar-toggle {
   
   .intro  {
   position: fixed;
-  font: 290%  'Dosis', sans-serif;
+  font: 10%  'Dosis', sans-serif;
   font-weight: bold;
   font-size: 290%;
   letter-spacing: 45px;
@@ -298,6 +312,7 @@ button a {
 button a:hover {
     color: #404040;
     text-decoration:  none;
+
 
 }
 
@@ -498,11 +513,13 @@ button a:active {
 
 .bgimg-4 {
   background-color: #222222;
-  background-image: url('http://artdnaswitchbd.com/componants/images/map-image.png');
+  background-image: url('https://image.ibb.co/jff1ma/tumblr_static_78g6a378ny0w00w0og0s0ww48.png');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 95px 0px;
+  background-size: 100%;
+  opacity:0.6;
 }
 
 
