@@ -82,16 +82,7 @@ button.navbar-toggle {
 
 
 
- @media only screen and (max-device-width: 480px) { 
-  .bgimg-1 {
-  background-image: url('https://i.ibb.co/L17j2y6/nw-one.jpg');
-  min-height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-   }    
- }   
-
+ 
 
 .intro  {
   position: absolute;
