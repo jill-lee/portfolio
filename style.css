@@ -59,7 +59,9 @@ button.navbar-toggle {
 
 
 .bgimg-1 {
-  background-image: url('https://i.ibb.co/L17j2y6/nw-one.jpg');
+  background-image: url('https://i.ibb.co/L17j2y6/nw-one.jpg" alt="nw-one" border="0"');
+  
+  
   min-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,9 +83,10 @@ button.navbar-toggle {
 }
 
 
-@media only screen and (max-device-width: 480px) { 
+
+ @media only screen and (max-device-width: 480px) { 
   .bgimg-1 {
-  background-image: url('https://i.ibb.co/L17j2y6/nw-one.jpg');
+  background-image: url('https://preview.ibb.co/dMzvHQ/GB2.jpg');
   min-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -91,7 +94,6 @@ button.navbar-toggle {
    }    
  }   
 
- 
 
 .intro  {
   position: absolute;
@@ -535,4 +537,13 @@ button a:active {
    padding:10px 0; 
    margin-bottom:0px;
    font-size: 10px;
+}
+
+
+.projcheetah {
+  fontsize: 10px;
+  grandient: rgb(100, 200, 244, 0);
+  text-spacing: 2px;
+  text-align: center;
+  
 }
